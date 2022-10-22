@@ -1,4 +1,25 @@
-.icons {
-  color: red;
-  font-size: 4rem;
+//color base
+
+$yellow: #F9C80E;
+$organge: #F86624;
+$red: #EA3546;
+$purple: #662E9B;
+$blue: #43BCCD;
+
+// base layout
+
+#app {
+  background-color: #43BCCD;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  color: #43BCCD;
+
+  p {
+    color: white;
+  }
+
 }

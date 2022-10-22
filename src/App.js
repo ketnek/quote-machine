@@ -1,14 +1,14 @@
 import React from 'react';
-import './css/App.css';
-import { FaYoutube } from 'react-icons/fa';
+import './scss/App.scss';
 import { ContainerQuoteMachine } from './app/components/quoteMachine'
 
 
 
 function App() {
   return (
-    <div>
+    <div id='app'>
       <ContainerQuoteMachine />
+      <p>by Kevin</p>
     </div>
   )
 };
