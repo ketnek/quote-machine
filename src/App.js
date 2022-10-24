@@ -4,7 +4,6 @@ import { ContainerQuoteMachine } from './app/components/quoteMachine'
 import { connect } from 'react-redux';
 
 
-
 class Presentational extends React.Component {
   render() {
     return (
